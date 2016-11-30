@@ -7,10 +7,11 @@ import { AppComponent } from './app.component';
 import { MenuComponent } from './menu.component';
 import { AboutComponent } from './about.component';
 import { ContactComponent } from './contact.component';
+import { WorkComponent } from './work.component';
 
 @NgModule({
   declarations: [
-    AppComponent, MenuComponent, AboutComponent, ContactComponent
+    AppComponent, MenuComponent, AboutComponent, ContactComponent, WorkComponent
   ],
   imports: [
     BrowserModule,
