@@ -63,14 +63,14 @@ ul br {
     right: 0;
     top: -500px;
     z-index: 100;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.7s ease-in-out;
 
 }
 
 .menu-toggle {
     list-style: none;
     font-size: 40px;
-    transition: all 0.3 ease-in-out;
+
     font-weight: bold;
 }
 
@@ -184,7 +184,7 @@ ul br {
   }
 
   .menu-toggle li > a {
-    position: absolute;
+
     color: #000;
     text-decoration: none;
     font-weight: bold;
@@ -194,32 +194,6 @@ ul br {
 
   }
 
-  /* SLIDING UNDERLINE STYLES */
-
-  .menu-toggle li > a:hover {
-    color: #000;
-  }
-
-  .menu-toggle > li > a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  background-color: #000;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-
-  .menu-toggle > li > a:hover:before {
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
-  }
 
 /* open menu */
   .menu-toggle.open {
@@ -235,21 +209,34 @@ ul br {
 
   .top-bar img {
     height: 25px;
+    visibility: visible;
   }
 
   .container {
+    width: auto;
     margin-left: 200px;
-    padding-right: 100px;
-    padding-top: 70px;
+    margin-right: 100px;
   }
 
   .container h1 {
     font-weight: normal;
   }
 
-  /* start of boxes/images styling on the home page */
+  /* FOOTER STYLES */
 
+  .footer {
+    background-color: #f2f2f2;
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+    position: fixed;
+  }
 
+  .footer > a {
+    color: black;
+    z-index: 999;
+
+  }
 
 
 

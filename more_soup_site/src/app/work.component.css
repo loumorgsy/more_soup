@@ -1,0 +1,19 @@
+.container {
+  width: auto;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 120px;
+}
+
+p {
+  padding-bottom: 70px;
+
+
+}
+
+.image {
+    
+    height:350px;
+    width: 49%;
+    background-color: #f2f2f2;
+  }

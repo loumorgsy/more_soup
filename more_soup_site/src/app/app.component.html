@@ -1,3 +1,4 @@
+<!-- NAVIGATION BOTH MOBILE AND DESKTOP -->
 <nav class="navbar">
     <div class="navbar-wrapper">
         <div class="navbar-header">
@@ -10,10 +11,10 @@
             </button>
         </div>
         <ul class="menu-toggle">
-            <li class=""><a href="">Home</a></li><br />
-            <li class=""><a href="">Our work</a></li><br />
-            <li class=""><a href="">Who are we?</a></li><br />
-            <li class=""><a href="">Get in touch</a></li>
+            <li class=""><a routerLink="/home">Home</a></li><br />
+            <li class=""><a routerLink="/work">Our work</a></li><br />
+            <li class=""><a routerLink="/about">Who are we?</a></li><br />
+            <li class=""><a routerLink="/contact">Get in touch</a></li>
 
         </ul>
     </div>
@@ -22,9 +23,34 @@
   <img src="/assets/logo.svg" />
 </div>
 
-<div class="container tagline">
-  <h1>We are a small design studio that works with you<br /> to create inspiring brands and beautiful packaging.</h1>
-  <div class="home-img-1">
+<!-- CONTENT GOES HERE -->
 
-  </div>
+<router-outlet></router-outlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+<div class="container-fluid footer">
+  <a class="text-center" href="">LINK</a>
+  <a href="#">LINK</a>
+  <a href="">LINK</a>
+  <a href="">LINK</a>
 </div>
