@@ -2,6 +2,10 @@
   visibility: hidden;
 }
 
+.top-bar {
+  display: none;
+}
+
 .tagline {
   font-weight: normal;
 }
